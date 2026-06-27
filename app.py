@@ -35,10 +35,6 @@ def buscar_producto(cod_barras: str):
                 return p
     return None
 
-id_buscado = input("Escanee código de barras...")
-
-producto_buscado = buscar_producto(id_buscado)
-
 carrito = []
 
 def agregar_al_carrito(carrito: list[ItemCarrito], producto: Producto, cantidad: int):
@@ -48,6 +44,24 @@ def agregar_al_carrito(carrito: list[ItemCarrito], producto: Producto, cantidad:
     item.cantidad = cantidad
     carrito.append(item)
 
+def generar_ticket(carrito:list[ItemCarrito]):
+    total = 0
+    for item in carrito:
+        total += item.precio
+    print(total)
+
+with open ('productos.txt', 'r') as archivo:
+    for linea in archivo:
+        cod_barras, nombre, categoria, precio, stock = linea.strip().split(",")
+        p = Producto()
+        p.cod_barras = cod_barras
+        p.nombre = nombre
+        p.categoria = categoria
+        p.precio = float(precio)
+        p.stock = int(stock)
+        carrito.append(p)
+
+generar_ticket(carrito)
 
 '''
 cod_ingresado = input("Ingrese el código de barras del producto: ")

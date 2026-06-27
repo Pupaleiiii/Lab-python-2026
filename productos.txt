@@ -1,1 +1,10 @@
-779,Alcohol Et�lico 96� Dismar,Farmac�utica,400.0,16
+779001,Yerba Mate Taragüí 1Kg,Almacén,3500.0,50
+779002,Leche Entera La Serenísima 1L,Lácteos,1200.0,100
+779003,Fideos Tallarines Lucchetti 500g,Almacén,900.0,80
+779004,Atún al Natural La Campagnola 170g,Almacén,2500.0,45
+779005,Cartón de Huevos Blancos 30u,Frescos,4000.0,20
+779006,Pechuga de Pollo 1Kg,Carnicería,6500.0,15
+779007,Gaseosa Coca-Cola 2.25L,Bebidas,2800.0,40
+779008,Papel Higiénico Higienol 4u,Limpieza,2200.0,25
+779009,Jabón de Tocador Rexona 3u,Perfumería,1800.0,60
+779010,Lavandina Ayudín 1L,Limpieza,1100.0,55
