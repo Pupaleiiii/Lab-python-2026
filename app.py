@@ -24,10 +24,10 @@ def cargar_producto(cod_barras_ingresado: str, nombre_ingresado: str, categoria_
 def buscar_producto(cod_barras: str):
     with open("productos.txt", "r") as archivo:
         for linea in archivo:
-            cod_barras, nombre, categoria, precio, stock = linea.strip().split(",")
-            if cod_barras == cod_barras:
+            c_barras, nombre, categoria, precio, stock = linea.strip().split(",")
+            if c_barras == cod_barras:
                 p = Producto()
-                p.cod_barras = cod_barras
+                p.cod_barras = c_barras
                 p.nombre = nombre
                 p.categoria = categoria
                 p.precio = float(precio)
@@ -44,24 +44,32 @@ def agregar_al_carrito(carrito: list[ItemCarrito], producto: Producto, cantidad:
     item.cantidad = cantidad
     carrito.append(item)
 
-def generar_ticket(carrito:list[ItemCarrito]):
+def generar_ticket(carrito:list[ItemCarrito],metodo_pago: str):
     total = 0
     for item in carrito:
         total += item.precio
-    print(total)
+    
+    print("\n========================================")
+    print("            TICKET DE COMPRA            ")
+    print("========================================")
+    
+    # Lógica condicional para el pago en efectivo
+    if metodo_pago.lower() == "efectivo":
+        descuento = (total * 10) / 100  # Aplicamos un 10% de descuento de ejemplo
+        total_final = total - descuento
+        
+        print(f"Subtotal: ${total}")
+        print(f"Descuento Efectivo (10%): -${descuento}")
+        print(f"TOTAL A PAGAR: ${total_final}")
+    else:
+        # Si paga con tarjeta, código QR u otro, paga el total normal
+        print(f"TOTAL A PAGAR: ${total}")
+        
+    print("========================================\n")
 
-with open ('productos.txt', 'r') as archivo:
-    for linea in archivo:
-        cod_barras, nombre, categoria, precio, stock = linea.strip().split(",")
-        p = Producto()
-        p.cod_barras = cod_barras
-        p.nombre = nombre
-        p.categoria = categoria
-        p.precio = float(precio)
-        p.stock = int(stock)
-        carrito.append(p)
 
-generar_ticket(carrito)
+
+
 
 '''
 cod_ingresado = input("Ingrese el código de barras del producto: ")
@@ -69,6 +77,5 @@ nombre_ingresado = input("Ingrese el nombre del producto: ")
 categoria_ingresada = input("Ingrese la categoría del producto: ")
 precio_ingresado = float(input("Ingrese el precio del producto: "))
 stock_ingresado = int(input("Ingrese el stock del producto: "))
-
 cargar_producto(cod_ingresado, nombre_ingresado, categoria_ingresada, precio_ingresado, stock_ingresado)
 '''
