@@ -21,4 +21,4 @@ Durante el desarrollo de este Trabajo Final Integrador, el equipo utilizó GEMIN
 - Diseño de la interfaz por consola: Utilizamos prompts para que nos sugiera una forma clara, estética y amigable de estructurar el menú interactivo de opciones impreso en la terminal y el formato del ticket de compra.
 - Apoyo en el desarrollo de funciones: Consultamos alternativas para resolver la lógica de ciertas funciones puntuales (como las búsquedas, validaciones o actualización del stock), adaptando luego las propuestas de la IA a las necesidades específicas de nuestro escenario y asegurándonos de comprender cada línea implementada.
   
-En todos los casos, el código sugerido por la IA fue analizado críticamente, modificado y validado por los integrantes del grupo para garantizar que cumpliera con los requisitos de uso de condicionales, ciclos y manejo de archivos solicitados en la consigna.
+Siempre revisamos y modificamos el código que nos sugería la IA para asegurarnos de entender cómo funcionaba cada línea y de que cumpla bien con el uso de condicionales, ciclos y manejo de archivos que pedía el trabajo.
