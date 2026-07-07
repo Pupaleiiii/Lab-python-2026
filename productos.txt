@@ -1,10 +1,42 @@
-779001,Yerba Mate Taragüí 1Kg,Almacén,3500.0,50
-779002,Leche Entera La Serenísima 1L,Lácteos,1200.0,100
-779003,Fideos Tallarines Lucchetti 500g,Almacén,900.0,80
-779004,Atún al Natural La Campagnola 170g,Almacén,2500.0,45
-779005,Cartón de Huevos Blancos 30u,Frescos,4000.0,20
-779006,Pechuga de Pollo 1Kg,Carnicería,6500.0,15
-779007,Gaseosa Coca-Cola 2.25L,Bebidas,2800.0,35
-779008,Papel Higiénico Higienol 4u,Limpieza,2200.0,25
-779009,Jabón de Tocador Rexona 3u,Perfumería,1800.0,60
-779010,Lavandina Ayudín 1L,Limpieza,1100.0,55
+7794000960071,Yerba Mate Taragüí 1Kg,Almacén,3500.0,50
+7791290786938,Yerba Mate Playadito 1Kg,Almacén,3900.0,40
+7798062540012,Yerba Mate Rosamonte 1Kg,Almacén,3600.0,35
+7790895001023,Azúcar Ledesma 1Kg,Almacén,1400.0,80
+7792170000158,Harina Blancaflor 000 1Kg,Almacén,1200.0,90
+7793360101107,Fideos Tallarines Lucchetti 500g,Almacén,900.0,80
+7790580984303,Arroz Gallo Oro 1Kg,Almacén,2100.0,60
+7790070321458,Aceite Natura Girasol 900ml,Almacén,2700.0,45
+7790060008888,Puré de Tomate Arcor 520g,Almacén,950.0,70
+7793360915001,Atún al Natural La Campagnola 170g,Almacén,2500.0,45
+7791813420196,Leche Entera La Serenísima 1L,Lácteos,1200.0,100
+7793940000120,Leche Descremada La Serenísima 1L,Lácteos,1250.0,70
+7790742165005,Yogur Bebible Ser Frutilla 1L,Lácteos,1850.0,45
+7793940212349,Queso Cremoso La Paulina 1Kg,Lácteos,7800.0,20
+7791234567001,Manteca Sancor 200g,Lácteos,2400.0,35
+7798765432109,Dulce de Leche Ilolay 400g,Lácteos,2600.0,30
+7791111111118,Cartón de Huevos Blancos 30u,Frescos,4000.0,20
+7792222222225,Pechuga de Pollo 1Kg,Carnicería,6500.0,15
+7793333333332,Carne Picada Especial 1Kg,Carnicería,9800.0,18
+7794444444449,Milanesas de Carne 1Kg,Carnicería,11500.0,12
+7795555555556,Coca-Cola 2.25L,Bebidas,2800.0,35
+7796666666663,Sprite 2.25L,Bebidas,2600.0,28
+7797777777770,Fanta Naranja 2.25L,Bebidas,2600.0,25
+7798888888887,Agua Villavicencio 1.5L,Bebidas,1700.0,50
+7799999999994,Cerveza Quilmes 1L,Bebidas,3200.0,22
+7791010101017,Vino Toro Tinto 750ml,Bebidas,2900.0,20
+7792020202024,Papel Higiénico Higienol 4u,Limpieza,2200.0,25
+7793030303031,Detergente Magistral 750ml,Limpieza,1700.0,30
+7794040404048,Lavandina Ayudín 1L,Limpieza,1100.0,55
+7795050505055,Limpiador Cif Crema 750g,Limpieza,2400.0,18
+7796060606062,Esponja Mortimer,Limpieza,800.0,60
+7797070707079,Jabón Rexona 3u,Perfumería,1800.0,60
+7798080808086,Shampoo Sedal 340ml,Perfumería,4200.0,25
+7799090909093,Acondicionador Sedal 340ml,Perfumería,4200.0,22
+7791122334455,Pasta Dental Colgate Triple Acción,Perfumería,2500.0,35
+7792233445566,Desodorante Axe Apollo,Perfumería,3900.0,18
+7793344556677,Galletitas Oreo 118g,Golosinas,1800.0,40
+7794455667788,Alfajor Jorgito Blanco,Golosinas,900.0,100
+7795566778899,Alfajor Guaymallén Triple,Golosinas,950.0,90
+7796677889900,Chocolate Cofler Leche 55g,Golosinas,1700.0,60
+7797788990011,Papas Lay's Clásicas 150g,Snacks,2600.0,45
+7798899001122,Palitos Saladix Original,Snacks,1200.0,55
