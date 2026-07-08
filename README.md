@@ -23,5 +23,3 @@ Durante el desarrollo de este Trabajo Final Integrador, el equipo utilizó GEMIN
 - Apoyo en el desarrollo de funciones: Consultamos alternativas para resolver la lógica de ciertas funciones puntuales (como las búsquedas, validaciones o actualización del stock), adaptando luego las propuestas de la IA a las necesidades específicas de nuestro escenario y asegurándonos de comprender cada línea implementada.
   
 Siempre revisamos y modificamos el código que nos sugería la IA para asegurarnos de entender cómo funcionaba cada línea y de que cumpla bien con el uso de condicionales, ciclos y manejo de archivos que pedía el trabajo.
-
-# ENLACE A VIDEO EXPLICATIVO DEL SISTEMA: https://drive.google.com/file/d/1hVWeMHc1sviRprfv_wXmcVZGFT5UAl5Q/view?usp=sharing
