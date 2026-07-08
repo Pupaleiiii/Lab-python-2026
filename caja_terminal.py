@@ -32,8 +32,11 @@ def iniciar_caja():
             
             if producto_encontrado is not None:
                 cantidad = int(input(f"¿Cuantas unidades de {producto_encontrado.nombre} desea agregar? "))
-                agregar_al_carrito(carrito, producto_encontrado, cantidad)
-                print(f"¡{producto_encontrado.nombre} - ${producto_encontrado.precio} x {cantidad} agregado exitosamente!")
+                if cantidad <= producto_encontrado.stock:
+                    agregar_al_carrito(carrito, producto_encontrado, cantidad)
+                    print(f"¡{producto_encontrado.nombre} - ${producto_encontrado.precio} x {cantidad} agregado exitosamente!")
+                else:
+                    print(f"ERROR: Solo hay {producto_encontrado.stock} unidades disponibles")
             else:
                 print("ERROR: Producto no encontrado en la base de datos.")
                 
