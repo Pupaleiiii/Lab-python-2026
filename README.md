@@ -12,7 +12,8 @@ Descripción general del sistema:
 El sistema funciona como una caja de supermercado básica. Usted puede registrar productos con su código de barras que luego, se almacenan en un archivo. Puede buscarlos y agregarlos a un carrito de compras para luego generar un ticket con todos los detalles de lo que compraste y calcula el total, aplicando descuentos según cómo pague el método de pago. Cuando termina de comprar, el sistema actualiza la cantidad de productos que quedan y vacía el carrito para el próximo cliente.
 
 Instrucciones de ejecución:
-(acá van la instrucciones de ejecución del sistema)
+El ejecutable "caja_supermercado.exe" debe estar en la misma carpeta que el archivo "productos.txt" para que funcione como debe.
+Aclarado eso, simplemente hay que ejecutar el programa y operar según las opciones que tiene.
 
 IA Utilizada: GEMINI PRO
 Durante el desarrollo de este Trabajo Final Integrador, el equipo utilizó GEMINI PRO como herramienta de asistencia y apoyo al aprendizaje, cumpliendo con los lineamientos de la cátedra. Específicamente, la IA se implementó para las siguientes tareas:
